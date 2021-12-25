@@ -16,7 +16,7 @@
   <div class="bg-dark fixed-top">
     <div class="container">
       <div class="row">
-        <nav class="navbar navbar-expand-md navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container">
             <a class="navbar-brand" href="index.html">
               <img src="../src/images/logo_festival.svg" alt="Watch it outside events co. logo" width="120" height="70">
@@ -24,19 +24,29 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-md-flex justify-content-between" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-0 mx-md-4 mb-2 mb-md-0">
-                <li class="nav-item px-0 px-md-1 px-lg-2">
+            <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-0 mx-lg-4 mb-2 mb-lg-0">
+                <li class="nav-item px-0 px-lg-1 px-lg-2">
+                  <a class="nav-link active" aria-current="page" href="#news">NEWS</a>
+                </li>
+                <li class="nav-item px-0 px-lg-1 px-lg-2">
                   <a class="nav-link active" aria-current="page" href="#program">PROGRAM</a>
                 </li>
-                <li class="nav-item px-0 px-md-1 px-lg-2">
+                <li class="nav-item px-0 px-lg-1 px-lg-2">
                   <a class="nav-link active" aria-current="page" href="#festival">THE FESTIVAL</a>
                 </li>
-                <li class="nav-item px-0 px-md-1 px-lg-2">
+                <li class="nav-item px-0 px-lg-1 px-lg-2">
                   <a class="nav-link active" aria-current="page" href="#venue">VENUE</a>
                 </li>
               </ul>
-              <a class="btn btn-primary text-white" href="#registration">GET YOUR PASS</a>
+              <div class="d-lg-flex align-items-center">
+                <div class="me-4">
+                  <a class="pe-2" href="http://www.twitter.com" target="_blank"><img src="../src/images/twitter.svg" alt="twitter logo" width="25" height="25"></a>
+                  <a class="pe-2" href="http://www.facebook.com" target="_blank"><img src="../src/images/facebook.svg" alt="facebook logo" width="25" height="25"></a>
+                  <a class="pe-2" href="http://www.instagram.com" target="_blank"><img src="../src/images/instagram.svg" alt="instagram logo" width="25" height="25"></a>
+                </div>
+                <a class="btn btn-primary text-white mt-3 mt-lg-0" href="#registration">GET YOUR PASS</a>
+              </div>
             </div>
           </div>
         </nav>
@@ -47,10 +57,9 @@
   <!-- hero section -->
   <div class="container-fluid px-0 pt-5">
     <div class="row card bg-dark text-white">
-      <img src="../src/images/outdoor_cinema.jfif" class="card-img d-md-none" alt="outdoor cinema">
-      <img src="../src/images/outdoor_cinema.jfif"" class="card-img d-none d-md-block opacity-50" alt="outdoor cinema">
+      <img src="../src/images/outdoor_cinema.jfif"" class="card-img opacity-50" alt="outdoor cinema">
 
-      <div class="card-img-overlay d-none d-md-block">
+      <div class="card-img-overlay">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         <p class="card-text">Last updated 3 mins ago</p>
@@ -58,6 +67,13 @@
     </div>
   </div>    
 
+
+    <!-- news -->
+    <div id="news" class="container py-5 vh-100">
+      <div class="row card bg-dark text-white">
+        <h2>LATEST ANNOUNCEMENTS</h2>
+      </div>
+    </div>  
 
   <!-- program -->
   <div id="program" class="container py-5 vh-100">
