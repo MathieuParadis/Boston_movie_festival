@@ -173,7 +173,7 @@ strong {
   font-weight: bolder; }
 
 small, .small {
-  font-size: 0.875em; }
+  font-size: 0.75em; }
 
 mark, .mark {
   padding: 0.2em;
@@ -216,14 +216,14 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
-  font-size: 0.875em; }
+  font-size: 0.75em; }
   pre code {
     font-size: inherit;
     color: inherit;
     word-break: normal; }
 
 code {
-  font-size: 0.875em;
+  font-size: 0.75em;
   color: #d63384;
   word-wrap: break-word; }
   a > code {
@@ -231,7 +231,7 @@ code {
 
 kbd {
   padding: 0.2rem 0.4rem;
-  font-size: 0.875em;
+  font-size: 0.75em;
   color: #fff;
   background-color: #212529;
   border-radius: 0.2rem; }
@@ -464,7 +464,7 @@ progress {
     margin-right: 0.5rem; }
 
 .initialism {
-  font-size: 0.875em;
+  font-size: 0.75em;
   text-transform: uppercase; }
 
 .blockquote {
@@ -479,7 +479,7 @@ progress {
 .blockquote-footer {
   margin-top: -1rem;
   margin-bottom: 1rem;
-  font-size: 0.875em;
+  font-size: 0.75em;
   color: #6c757d; }
   .blockquote-footer::before {
     content: "\2014\00A0"; }
@@ -504,7 +504,7 @@ progress {
   line-height: 1; }
 
 .figure-caption {
-  font-size: 0.875em;
+  font-size: 0.75em;
   color: #6c757d; }
 
 .container,
@@ -1537,7 +1537,7 @@ progress {
 
 .form-text {
   margin-top: 0.25rem;
-  font-size: 0.875em;
+  font-size: 0.75em;
   color: #6c757d; }
 
 .form-control {
@@ -1995,7 +1995,7 @@ textarea.form-control-lg {
   display: none;
   width: 100%;
   margin-top: 0.25rem;
-  font-size: 0.875em;
+  font-size: 0.75em;
   color: #198754; }
 
 .valid-tooltip {
@@ -2068,7 +2068,7 @@ textarea.form-control-lg {
   display: none;
   width: 100%;
   margin-top: 0.25rem;
-  font-size: 0.875em;
+  font-size: 0.75em;
   color: #dc3545; }
 
 .invalid-tooltip {
@@ -7852,7 +7852,9 @@ textarea.form-control-lg {
 
 @media (min-width: 992px) {
   .vh-lg-100 {
-    height: 100vh !important; } }
+    height: 100vh !important; }
+  .img-lg {
+    width: 150px !important; } }
 
 .btn-primary:hover {
   background-color: #0a6d33;
@@ -7868,7 +7870,10 @@ textarea.form-control-lg {
   height: 30em;
   object-fit: contain; }
 
-.img-md-carousel {
+.img-lg-carousel {
   width: 100%;
-  height: 22em;
+  height: 20em;
   object-fit: contain; }
+
+.img-sm {
+  width: 50px; }
