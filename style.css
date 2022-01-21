@@ -7858,7 +7858,7 @@ textarea.form-control-lg {
   width: 200px; }
 
 .bg-img-hero-section {
-  background-image: url("../src/images/outdoor_cinema.png");
+  background-image: url("./images/outdoor_cinema.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: fixed center; }
